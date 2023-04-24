@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earn & Learn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="link_page.css">
+    <script>
+        function user_employee() {
+            windows.location.href = "https://www.example.com";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="b-example-divider"></div>
+        <nav class="py-2 bg-dark border-bottom">
+            <div class="container d-flex flex-wrap">
+                <ul class="nav me-auto">
+                    <img src="logo.jpg" style="height: 45px; width: 45px; border-radius: 10px;" alt="">
+                    <li class="nav-item"><a href="Home.html" class="nav-link link-light px-2 btn btn-outline-warning" style="position: absolute; left: 380px; border-radius: 10px;" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="About Us.html" class="nav-link link-light px-2 btn btn-outline-warning" style="position: absolute; left: 460px; border-radius: 10px;">Courses</a></li>
+                    <li class="nav-item"><a href="About Us.html" class="nav-link link-light px-2 btn btn-outline-warning" style="position: absolute; left: 550px; border-radius: 10px;">About Us</a></li>
+                    <li class="nav-item"><a href="Contact Us.html" class="nav-link link-light px-2 btn btn-outline-warning" style="position: absolute; left: 650px; border-radius: 10px;">Contact Us</a></li>
+                    <li class="nav-item"><a href="Feedback.html" class="nav-link link-light px-2  btn btn-outline-warning" style="position: absolute; left: 760px; border-radius: 10px;">Feedback</a></li>
+                </ul>
+                <div class="text-end  ">
+                    <!-- <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button> -->
+                    <button type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#signupModal">
+                        Login / Sign-up </button>
+                </div>
+            </div>
+        </nav>
+    </div><br>
+
+    <!-- Login / Sign Up Modal  -->
+
+
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-xxl-down">
+            <div class="container">     
+                <div class="rec">                                                                                                            
+                    <a class="as" href="home.html">
+                        <img class="logo" src="logo.jpg"
+                            style="border-radius: 30px; height: 90px; width: 90px; margin: 17px;">
+                    </a>
+                    <button class="b1">EARN AND LEARN</button>
+                    <label class="l1" for="b1">EARNING PLATFORM</label>
+                    <label class="f1" for="b1">Select Account Type</label>
+                    
+                    <div class="rec1" type="button" href="login/student_login_page/student_login.html">
+                        <img src="student.png" style="height: 70px; width: 70px; margin: 20px;" alt="">
+                        <h1 style="margin: 10px;"> Register as student</h1>
+                    </div>
+
+                    <div class="rec2" type="button">
+
+                        <img src="employee.png" style="height: 70px; width: 70px; margin: 20px;" alt="">
+                        <h1 style="margin: 10px;"> Register as Company</h1>
+                        <!-- <span>&#8594;</span> -->
+                        <!-- <div class="span2">&#8594; -->
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    </div>
+
+    <!-- Carousel -->
+
+    <div class="container">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="slide-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h4>Easy To Earn Money While learning</h4>
+                        <p>We Are Always Available For Help By 24 x 7.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slide-2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Cloud Management</h4>
+                        <p>It Is The management Of Cloud Computing Products And Services.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slide-3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-light">
+                        <h4>Database Management</h4>
+                        <p>Monitoring The Performance Of Applications And Their Data And Tuning As Needed.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slide-4.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Software Development</h4>
+                        <p>Software Development Is The Process Of Creating, Designing, And Supporting Software.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- boxes -->
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative border border-primary">
+                    <div class="col p-4 d-flex flex-column position-static ">
+                        <strong class="d-inline-block mb-2 text-primary" style="font-size: x-large;">Data
+                            Analysis</strong>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="About Us.html" class="stretched-link">Continue Reading »»</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="300" height="250" src="Data analysis.png" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative border border-success">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success" style="font-size: x-large;">Application
+                            Development</strong>
+                        <p class="mb-auto">Increasingly, industries are turning toward technology to advance their
+                            business capabilities, and they need people skilled in developing, maintaining, and
+                            improving their technological systems.</p>
+                        <a href="About Us.html" class="stretched-link">Continue Reading »»</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="250" height="250" src="Application Development.jpg"
+                            alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative border border-danger">
+                    <div class="col p-4 d-flex flex-column position-static ">
+                        <strong class="d-inline-block mb-2 text-danger" style="font-size: x-large;">Web
+                            Development</strong>
+                        <p class="card-text mb-auto">Web development brings together the fundamentals of software
+                            development and user experience, incorporating the technical aspects of the former with the
+                            design elements of the latter. </p>
+                        <a href="About Us.html" class="stretched-link">Continue Reading »»</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="300" height="270" src="Web Development.png" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative border border-warning">
+                    <div class="col p-4 d-flex flex-column position-static ">
+                        <strong class="d-inline-block mb-2 text-warning" style="font-size: x-large;">Machine
+                            Learning</strong>
+                        <p class="mb-auto">Machine learning can be used for various tasks, such as classification,
+                            prediction, data mining, and natural language processing. </p>
+                        <a href="About Us.html" class="stretched-link">Continue Reading »»</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="290" height="270" src="Machine Learning.png" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Grid -->
+
+
+    <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom text-warning-emphasis">Features</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            <div class="col d-flex align-items-start">
+                <img src="i-1.png" width="40px" height="40px" style="margin-right: 10px; margin-top: 15px;" alt="">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">Web Designer</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="i-2.png" width="40px" height="40px" style="margin-right: 10px; margin-top: 15px;" alt="">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">Graphic Designer</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="i-3.png" width="40px" height="40px" style="margin-right: 10px; margin-top: 15px;" alt="">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">Data Entry</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="i-4.png" width="55px" height="55px" style="margin-right: 10px; margin-top: 15px;" alt="">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">System Analyst</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="i-5.png" width="40px" height="40px" style="margin-right: 10px; margin-top: 15px;" alt="">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">Website Tester</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="i-6.png" width="45px" height="45px" style="margin-right: 10px; margin-top: 15px;" alt="">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">Editor</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="i-7.png" width="55px" height="55px" style="margin-right: 10px; margin-top: 15px;" alt="">
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">Blogger</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="i-8.png" width="50px" height="50px" style="margin-right: 10px; margin-top: 15px;" alt="">
+
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4">Translator</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Round Heading.... -->
+
+
+    <div class="container">
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle border border-secondary" width="140" height="140"
+                        src="google.png">
+                    <h2 class="fw-normal fw-bold">Google</h2>
+                    <p class="text-secondary">This Is Very Useful And Very well Working Employee Site. It's Features Are
+                        Very Awesome. This Is
+                        Very Easy To Use.</p>
+                    <p><a class="btn btn-secondary" href="Feedback.html ">Your Feedback »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle border border-secondary" width="140" height="140"
+                        src="freelancer2.png ">
+                    <h2 class="fw-normal fw-bold">Freelancer</h2>
+                    <p class="text-secondary">Best Teaching Website Ever , We Can Se That It a No. One Teaching App On
+                        This Platform And It Is
+                        Absolutely Right. It As Many Features That Employee and student have.
+                    </p>
+                    <p><a class="btn btn-secondary" href="Feedback.html">Your Feedback »</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle border border-secondary" width="140" height="140"
+                        src="Apple.png">
+                    <h2 class="fw-normal fw-bold">Apple</h2>
+                    <p class="text-secondary">This Website Is Very Critical For Me To Keep Taking Earning During
+                        Lockdown Also. Extremely
+                        Useful And Helpful To Me For My Work Requirements.</p>
+                    <p><a class="btn btn-secondary" href="Feedback.html">Your Feedback »</a></p>
+                </div>
+            </div>
+
+
+            <!-- Footer -->
+
+            <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="logo.jpg" href="#"
+                            style="border-radius: 25px; margin-top: 50px; margin-left: 120px;" alt="" width="70"
+                            height="70">
+                        <!-- <small class="d-block mb-5 text-body-secondary">©2023</small> -->
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="link-light text-decoration-none">Build Your Job</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                    href="About Us.html">Designing</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                    href="About Us.html">Marketing</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Website
+                                    Builder</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Network
+                                    Administrator</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Full
+                                    Stack Developer</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Cloud
+                                    Engineer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="link-light text-decoration-none">Popular Courses</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Data
+                                    Analyst</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Data
+                                    Science</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Web
+                                    Designing</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">Machine
+                                    Learning</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="link-light text-decoration-none">About</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="About Us.html">About
+                                    Us</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                    href="Feedback.html">Feedback</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                    href="terms_condition.html">Terms & Condition</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none"
+                                    href="Contact Us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+</body>
+
+</html>

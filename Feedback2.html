@@ -1,0 +1,71 @@
+<HTML data-bs-theme="dark">
+
+<HEAD>
+    <TITLE>Feedback Form</TITLE>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</HEAD>
+
+<body style="text-align: center ; background-color:rgb(26, 26, 26);">
+    <div class="container">
+        <div class="b-example-divider"></div>
+        <nav class="py-2 bg-dark border-bottom">
+            <div class="container d-flex flex-wrap">
+                <ul class="nav me-auto">
+                    <li class="nav-item"><a href="Home.html" class="nav-link link-light px-2 active"
+                            aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="About Us.html" class="nav-link link-light px-2">Courses</a></li>
+                    <li class="nav-item"><a href="About Us.html" class="nav-link link-light px-2">About Us</a></li>
+                    <li class="nav-item"><a href="Contact Us.html" class="nav-link link-light px-2">Contact Us</a></li>
+                    <li class="nav-item"><a href="Feedback.html" class="nav-link link-light px-2">Feedback</a></li>
+                </ul>
+                <div class="text-end  ">
+                    <!-- <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button> -->
+                    <button type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#signupModal">
+                        Login / Sign-up </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container" style="margin-top: 150px;">
+    <H1 style="color: aliceblue;">Feedback Form</H1>
+    <BR>
+    <FORM action="mailto:simon.long@cit.ie" method="post" enctype="text/plain" style="color: aliceblue;">
+        First Name : <INPUT type="text" name="firstname" placeholder="Enter name here" style="border-radius: 5px;">
+        <BR>
+        <BR>
+
+        <INPUT type="radio" name="gender" value="male">  Male<BR><BR>
+        <INPUT type="radio" name="gender" value="female">  Female
+        <BR>
+        <BR>
+
+        Email : <INPUT type="email" name="mail" placeholder="e-mail address" style="border-radius: 5px;">
+        <BR>
+        <BR>
+        Comment :<BR><BR>
+        <TEXTAREA rows="6" cols="50" name="commentfield" style="border-radius: 5px;"></TEXTAREA>
+        <BR>
+        <BR>
+        <SELECT name="Country" style="border-radius: 5px;">
+            <OPTION value="Akhand Bharat">Akhand Bharat</OPTION>
+            <OPTION value="USA">USA</OPTION>
+            <OPTION value="isreal">Isreal</OPTION>
+            <OPTION value="japan">Japan</OPTION>
+            <OPTION value="china">China</OPTION>
+            <OPTION value="barzil">Brazil</OPTION>
+            <OPTION value="africa">Africa</OPTION>
+        </SELECT>
+        <BR>
+        <BR><BR>
+        <INPUT TYPE="submit" value="Send Feedback" style="border-radius: 10px;">
+        <INPUT TYPE="reset" value="Reset" style="border-radius: 10px;">
+    </FORM>
+</div>
+</body>
+
+</HTML>
